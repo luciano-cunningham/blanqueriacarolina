@@ -76,16 +76,14 @@ footer{
 }
 /* estilos nosotros para tablet */
 @media only screen and (min-width:768px){
-    h1, p {
+    .headernosotros, .contenidonosotros {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
 }
+/* estilos para nosotros en desktop */
 @media only screen and (min-width:1024px){
-    p{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .contenidonosotros{
         height: 15rem;
     }
 }

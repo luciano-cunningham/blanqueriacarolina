@@ -2,13 +2,17 @@
 body{
     background-color: rgb(147, 144, 144);
 }
-/* header */
+/* estilos index mobile first */
 .headerindex{
     background-image: url(../images/fondo-cama.webp);
     height:26vh ;
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
+}
+.imgindex{
+    width: 300px;
+    height: 300px;
 }
 /* enlaces */
 .fin {
@@ -17,22 +21,17 @@ body{
     color: rgb(6, 5, 5);
 }
 
-
 /* textos */
-h1{
+h1,h2{
     color:rgba(0, 0, 0, 0.893) ;
     font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
     
 }
-h2{
-    text-transform: uppercase;
-
-}
 h3{
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
 }
 /* listas */
@@ -58,4 +57,20 @@ footer{
 .boton{
     border-radius: 0.5rem;
     margin-bottom: 1rem;
+}
+
+/* estilos index para tablet */
+
+@media only screen and (min-width:768px){
+.imgindex{
+    width: 600px;
+    height: 500px;
+}
+}
+/* estilos index para desktop */
+@media only screen and (min-width:1024px){
+    .imgindex{
+        width: 1000px;
+        height: 500px;
+    }
 }

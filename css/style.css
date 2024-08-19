@@ -2,7 +2,7 @@
 body{
     background-color: rgb(147, 144, 144);
 }
-/* estilos index mobile first */
+/* estilos index y nosotros para mobile first */
 .headerindex{
     background-image: url(../images/fondo-cama.webp);
     height:26vh ;
@@ -72,5 +72,20 @@ footer{
     .imgindex{
         width: 1000px;
         height: 500px;
+    }
+}
+/* estilos nosotros para tablet */
+@media only screen and (min-width:768px){
+    h1, p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (min-width:1024px){
+    p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 15rem;
     }
 }

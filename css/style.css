@@ -33,6 +33,21 @@
   margin-bottom: 1rem;
 }
 
+.listas {
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+.listas li {
+  list-style: none;
+}
+
+.texto {
+  text-align: center;
+}
+
 /* estilos index para tablet */
 @media only screen and (min-width: 768px) {
   .imgindex {
@@ -66,21 +81,6 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 2rem;
-}
-
-.listas {
-  padding: 0%;
-  display: flex;
-  justify-content: center;
-  gap: 0.7rem;
-  margin-top: 2rem;
-}
-.listas li {
-  list-style: none;
-}
-
-.texto {
-  text-align: center;
 }
 
 * {

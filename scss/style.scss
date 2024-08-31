@@ -1,11 +1,13 @@
 @import "./layouts/header-index";
 @import "./layouts/main-index";
+@import "./layouts/footer-index";
 @import "./mq/mediaqueries";
 @import "./utilities/extends";
-@import "./layouts/footer-index";
+
 *{
     font-family: "Roboto", sans-serif;
 }
+
 body{
     background-color: rgb(147, 144, 144);
 }

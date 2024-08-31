@@ -1,0 +1,20 @@
+.headerindex{
+    background-image: url(../images/fondo-cama.webp);
+    height:30vh ;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    
+    h1{
+        color: rgba(0, 0, 0, 0.834);
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-weight: 500;
+
+    }
+    img{
+        width:150px;
+        height:150px; 
+    }
+}

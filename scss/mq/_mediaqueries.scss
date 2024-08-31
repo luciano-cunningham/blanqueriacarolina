@@ -1,0 +1,29 @@
+
+/* estilos index para tablet */
+
+@media only screen and (min-width:768px){
+    .imgindex{
+        width: 600px;
+        height: 500px;
+    }
+    }
+    /* estilos index para desktop */
+    @media only screen and (min-width:1024px){
+        .imgindex{
+            width: 1000px;
+            height: 500px;
+        }
+    }
+    /* estilos nosotros para tablet */
+    @media only screen and (min-width:768px){
+        .headernosotros, .contenidonosotros {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    /* estilos para nosotros en desktop */
+    @media only screen and (min-width:1024px){
+        .contenidonosotros{
+            height: 15rem;
+        }
+    }

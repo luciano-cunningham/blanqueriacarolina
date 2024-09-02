@@ -1,13 +1,17 @@
+@import "./base/variables";
+@import "./utilities/extends";
 @import "./layouts/header-index";
 @import "./layouts/main-index";
 @import "./layouts/footer-index";
+@import "./layouts/contacto";
+@import "./layouts/servicios";
+@import "./layouts/productos";
 @import "./mq/mediaqueries";
-@import "./utilities/extends";
 
 *{
     font-family: "Roboto", sans-serif;
 }
 
 body{
-    background-color: rgb(147, 144, 144);
+    background-color: rgba(147, 144, 144, 0.958)
 }

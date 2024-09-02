@@ -1,0 +1,10 @@
+.imagenfondo{
+    background-image: url(../../images/fondo-de-blanqueria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 10px;
+}
+.flexbasico{
+  @extend %flexmobile;
+}

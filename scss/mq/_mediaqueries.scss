@@ -4,8 +4,11 @@
 @media only screen and (min-width:768px){
     .imgindex{
         width: 600px;
-        height: 500px;
-    }
+        height: 500px; 
+        }
+     .headerindex{
+        height: 25vh;
+     }
     }
     /* estilos index para desktop */
     @media only screen and (min-width:1024px){
@@ -13,6 +16,8 @@
             width: 1000px;
             height: 500px;
         }
+       
+
     }
     /* estilos nosotros para tablet */
     @media only screen and (min-width:768px){
@@ -25,5 +30,58 @@
     @media only screen and (min-width:1024px){
         .contenidonosotros{
             height: 15rem;
+        }
+    }
+    // estilos para contacto en tablet
+    @media only screen and (min-width:768px){
+        .titulocontacto{
+            font-weight: 600;
+            font-style: italic;
+        }
+    }
+    // estilos para contacto en desktop
+    @media only screen and (min-width:1024px){
+        .titulocontacto{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 500;
+        }
+    }
+    // estilos para servicios tablet
+    @media only screen and (min-width:768px){
+        .contenedorservicios{
+          
+            h2{
+                font-style: italic;
+                font-weight: 600;
+            }
+        }
+    }
+    // estilos para servicios desktop
+    @media only screen and (min-width:1024px){
+        .contenedorservicios{
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    // estilos para productos tablet
+    @media only screen and (min-width:768px){
+        .imgproductos{
+            height: 400px;
+            width: 400px;
+        }
+    }
+    // estilos para productos desktop
+    @media only screen and (min-width:1024px){
+        .imgproductos{
+            height: 600px;
+            width: 600px;
+        }
+        .textoproductos{
+         font-style: italic;
+         font-weight: 500;
+         text-transform: capitalize;
+          
         }
     }

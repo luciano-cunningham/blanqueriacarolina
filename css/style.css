@@ -1,3 +1,18 @@
+.segundotitulo {
+  color: rgba(0, 0, 0, 0.893);
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.flexbasico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .headerindex {
   background-image: url(../images/fondo-cama.webp);
   height: 30vh;
@@ -48,11 +63,38 @@
   text-align: center;
 }
 
+.imagenfondo {
+  background-image: url(../../images/fondo-de-blanqueria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 10px;
+}
+
+.tituloservicios {
+  color: rgba(0, 0, 0, 0.878);
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+
+.contenedorservicios p {
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+
+.imgproductos {
+  height: 200px;
+  width: 200px;
+}
+
 /* estilos index para tablet */
 @media only screen and (min-width: 768px) {
   .imgindex {
     width: 600px;
     height: 500px;
+  }
+  .headerindex {
+    height: 25vh;
   }
 }
 /* estilos index para desktop */
@@ -75,20 +117,55 @@
     height: 15rem;
   }
 }
-.segundotitulo {
-  color: rgba(0, 0, 0, 0.893);
-  font-size: 2rem;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 2rem;
+@media only screen and (min-width: 768px) {
+  .titulocontacto {
+    font-weight: 600;
+    font-style: italic;
+  }
 }
-
+@media only screen and (min-width: 1024px) {
+  .titulocontacto {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contenedorservicios h2 {
+    font-style: italic;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contenedorservicios {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .imgproductos {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .imgproductos {
+    height: 600px;
+    width: 600px;
+  }
+  .textoproductos {
+    font-style: italic;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
 }
 
 body {
-  background-color: rgb(147, 144, 144);
+  background-color: rgba(147, 144, 144, 0.958);
 }
 
 /*# sourceMappingURL=style.css.map */

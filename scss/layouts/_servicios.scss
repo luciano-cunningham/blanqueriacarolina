@@ -9,3 +9,7 @@
     text-transform: capitalize;
   }
 }
+.contenidoservicios{
+  color: $colorsecundario;
+  font-size: nth($font-sizes,2 );
+}

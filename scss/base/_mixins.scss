@@ -1,0 +1,5 @@
+@mixin encabezado($colortitulo,$tamanio,$posicion){
+    color: $colortitulo;
+    font-size: $tamanio;
+    text-align: $posicion;
+}

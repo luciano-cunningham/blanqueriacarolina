@@ -1,4 +1,5 @@
 @import "./base/variables";
+@import "./base/mixins";
 @import "./utilities/extends";
 @import "./layouts/header-index";
 @import "./layouts/main-index";
@@ -6,12 +7,7 @@
 @import "./layouts/contacto";
 @import "./layouts/servicios";
 @import "./layouts/productos";
+@import "./layouts/nosotros";
+@import "./base/base";
 @import "./mq/mediaqueries";
 
-*{
-    font-family: "Roboto", sans-serif;
-}
-
-body{
-    background-color: rgba(147, 144, 144, 0.958)
-}

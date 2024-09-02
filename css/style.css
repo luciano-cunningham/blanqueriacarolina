@@ -82,9 +82,28 @@
   text-transform: capitalize;
 }
 
+.contenidoservicios {
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 16px;
+}
+
 .imgproductos {
   height: 200px;
   width: 200px;
+}
+
+.titulonosotros {
+  color: rgba(0, 0, 0, 0.911);
+  font-size: 2rem;
+  text-align: center;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgba(147, 144, 144, 0.958);
 }
 
 /* estilos index para tablet */
@@ -159,13 +178,6 @@
     font-weight: 500;
     text-transform: capitalize;
   }
-}
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  background-color: rgba(147, 144, 144, 0.958);
 }
 
 /*# sourceMappingURL=style.css.map */

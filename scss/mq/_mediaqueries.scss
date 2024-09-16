@@ -55,6 +55,14 @@
                 font-weight: 600;
             }
         }
+        .contenedorimagenes{
+            flex-direction: row;
+            justify-content: center;
+        }
+        .logoservicios{
+            height: 200px;
+            width: 200px;
+        }
     }
     // estilos para servicios desktop
     @media only screen and (min-width:1024px){

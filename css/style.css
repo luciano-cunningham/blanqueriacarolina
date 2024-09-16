@@ -94,6 +94,22 @@
   font-size: 16px;
 }
 
+.contenedorimagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 11.5rem;
+}
+
+.logoservicios {
+  transition: 0.3s;
+}
+.logoservicios:hover {
+  transform: scale(1.1);
+}
+
 .imgproductos {
   height: 200px;
   width: 200px;
@@ -159,6 +175,14 @@ body {
   .contenedorservicios h2 {
     font-style: italic;
     font-weight: 600;
+  }
+  .contenedorimagenes {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .logoservicios {
+    height: 200px;
+    width: 200px;
   }
 }
 @media only screen and (min-width: 1024px) {

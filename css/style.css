@@ -14,7 +14,7 @@
 }
 
 .headerindex {
-  background-image: url(../images/fondo-cama.webp);
+  background-image: url(../images/fondo-cama.jpg);
   height: 30vh;
   background-size: cover;
   background-position: center;
@@ -72,10 +72,9 @@
 
 .imagenfondo {
   background-image: url(../../images/fondo-de-blanqueria.jpg);
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  padding-top: 10px;
 }
 
 .tituloservicios {
@@ -156,7 +155,7 @@ body {
 /* estilos para nosotros en desktop */
 @media only screen and (min-width: 1024px) {
   .contenidonosotros {
-    height: 15rem;
+    padding-bottom: 1rem;
   }
 }
 @media only screen and (min-width: 768px) {
